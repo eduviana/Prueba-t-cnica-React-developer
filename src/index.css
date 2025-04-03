@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.custom-container {
+    @apply max-w-[90%] sm:max-w-[84%] md:max-w-[80%] xl:max-w-[80%] 2xl:max-w-[80%] mx-auto;
+  }
