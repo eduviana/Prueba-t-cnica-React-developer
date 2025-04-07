@@ -9,6 +9,7 @@ export function ResultsPerPage({
 }: ResultsPerPageProps) {
   return (
     <select
+      data-testid="results-select"
       value={currentQuantity}
       className="bg-slate-600/90 rounded-sm font-semibold text-white py-2 px-4"
       onChange={(e) => onResultsPerpage(Number(e.target.value))}
